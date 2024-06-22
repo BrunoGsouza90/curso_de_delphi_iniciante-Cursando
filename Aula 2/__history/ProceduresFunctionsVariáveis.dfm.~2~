@@ -1,0 +1,53 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 368
+  ClientWidth = 731
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object btnprimeiro: TEdit
+    Left = 8
+    Top = 8
+    Width = 289
+    Height = 74
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    Text = 'Visualizar Valores 1'
+  end
+  object Memo1: TMemo
+    Left = 8
+    Top = 88
+    Width = 715
+    Height = 272
+    Alignment = taCenter
+    TabOrder = 1
+    OnChange = Memo1Change
+  end
+  object btnsegundo: TEdit
+    Left = 434
+    Top = 8
+    Width = 289
+    Height = 74
+    Alignment = taCenter
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    Text = 'Visualizar Valores 2'
+  end
+end
